@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Jeff Got You!</title>
+</head>
+
+<body>
+	<div class="explanation">
+		<h1>Jeff Wins</h1>
+
+		<p>
+			<span th:text="${jeffCount}">Number of Jeffs</span>
+		</p>
+
+		<form th:action="@{/get_jeff}" method="GET">
+			<button>Hang Your Head in Shame</button>
+		</form>
+	</div>
+
+</body>
+
+</html>
