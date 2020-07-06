@@ -1,0 +1,5 @@
+.maybeJeff:hover {
+	cursor: url(../../../../resources/pieSideways.cur), pointer;
+}
+
+/* Couldn't get this to work in the styled component for some reason.  Works here. */
