@@ -56,7 +56,7 @@ class Public extends Component {
 		// console.log('startJeff run');
 		axios.get('/get_jeff')
 			.catch(this.stopIt);
-		const theTime = setTimeout(this.timedOut, 20000);
+		const theTime = setTimeout(this.timedOut, 40000);
 		this.setState({ timeStorer: theTime });
 		this.queryForJeff();
 	}
