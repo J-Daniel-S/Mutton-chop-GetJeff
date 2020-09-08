@@ -11,7 +11,7 @@ const defeatNormal = (props) => {
 				<h1><span>or it would if you could see through the whipped cream...</span></h1>
 				<h1><span>(you missed a Jeff... or maybe a Geoff)</span></h1>
 				<h1><span> As the pie dribbles down your</span></h1>
-				<h1><span> face you reflect on your life.</span></h1>
+				<h1><span> face you reflect on your life and the strange events of the day.</span></h1>
 				<br />
 				<button onClick={props.startAgain} onMouseOver={props.changeText}>{props.defeatButton}</button>
 			</div>
